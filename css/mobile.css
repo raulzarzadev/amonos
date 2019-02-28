@@ -1,0 +1,45 @@
+@media (max-width:1024px){
+
+    .container-presentacion{
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .presentacion{
+        width: 430px;
+        margin: auto;
+    }
+    .video{
+        width: 300px;
+    }
+    .coment.a {
+        grid-area: 1 / 1 / 1 / -1;
+    }
+    .coment.b {
+    grid-area: 3 / 1 / 2 / -1;
+    }
+    .coment.c {
+        grid-area: 3/4/span2/1;
+    }
+}
+
+@media (max-width:450px){
+    .presentacion{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+
+    }
+    .video{
+        width: 90%px;
+        height: 125px;
+    }
+    menu,
+    menu ul{
+        padding-left: 10px;
+    }
+   
+    .coment-foto{
+        width: 90%;
+    }
+    
+}
