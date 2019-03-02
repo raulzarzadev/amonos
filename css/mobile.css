@@ -23,6 +23,9 @@
 }
 
 @media (max-width:800px){
+    .container-presentacion-completa{
+    margin: 0 ;
+    }
     .title-presentacion{
         margin: 0px 0;
     }
@@ -43,6 +46,7 @@
 }
 
 @media (max-width:450px){
+    
     
     .title-presentacion h2{
         font-size: 25px;
@@ -68,4 +72,9 @@
     }
     
     
+}
+@media (max-width:400px){
+    .header input{
+        display: none;
+    }
 }
