@@ -16,6 +16,7 @@ p{
     padding: 0;  
 }
 
+
 /* ---HEADER--- */
 .header{
     padding: 0 30px;
@@ -53,12 +54,19 @@ a{
     cursor:pointer; 
     cursor: hand;
 }
+/*  --TITLES-- */
+.hero{
+    font-size: 40px;
+    margin: 50px;
+    text-align: center;
+}
 /* CONTAINER-FORM */
 .container-form{
     margin: 50px;
     text-align: center;
 }
 /* ---CONTAINER-PRESENTACION--- */
+
 .container-presentacion{
     padding: 10px;
     border-radius: 10px;
@@ -78,11 +86,12 @@ a{
 }
 
 .presentacion {
-    height: 400px;
+    height: 425px;
     display: inline-block;
     background: #fff;
     border-radius: 20px;
     padding: 30px;
+    padding-top: 0;
     text-align: center;
     box-shadow: 5px 5px 30px -5px rgba(130, 130, 130, 1);
 }
@@ -91,6 +100,9 @@ a{
 }
 .title-presentacion{
     margin: 20px 0;
+}
+.title-presentacion h2{
+    font-size: 35px;
 }
 .registro{
     padding: 20px;
@@ -141,6 +153,19 @@ ul,li{
     text-decoration: none;
     list-style: none;
 }
+.menu,
+    ul{
+        padding: 0;
+    }
+    .nivel1{
+        margin: 5px;
+    }
+    .nivel2{
+        margin: 10px 5px 10px 30px;
+    }
+    .nivel3{
+        margin: 10px 5px 10px 60px;
+    }
 
 
 /* ---COMENTARIOS--- */ 
