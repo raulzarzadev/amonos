@@ -1,5 +1,6 @@
 @media (max-width:1024px){
 
+
     .container-presentacion{
         grid-template-columns: 1fr 1fr;
         margin: 20px;
@@ -11,6 +12,12 @@
     .video{
         width: 300px;
     }
+    .container-indexGuia{
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+
+    }
+
     .coment.a {
         grid-area: 1 / 1 / 1 / -1;
     }
@@ -46,6 +53,7 @@
 }
 
 @media (max-width:450px){
+
     
     .registro{
             padding: 10px;
@@ -69,6 +77,15 @@
     .container-video{
         display: none;
     }
+    .hero{
+        margin: 15px 0px 15px 0;
+        font-size: 20px;
+    }
+    .container-indexGuia{
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(3,150px);
+
+    }
     .coment-foto{
         width: 90%;
     }
@@ -76,7 +93,7 @@
     
 }
 @media (max-width:400px){
-    .header input{
+    .buscar{
         display: none;
     }
 }
