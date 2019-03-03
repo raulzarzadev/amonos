@@ -100,7 +100,7 @@
     .items-cliente{
         justify-content: center;
         grid-template-columns: 80%;
-        grid-template-rows: repeat(2,120px);
+        grid-template-rows: repeat(3,minmax(100px,150px));
     }
     .coment-foto{
         width: 90%;

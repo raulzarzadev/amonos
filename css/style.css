@@ -129,8 +129,8 @@ a{
 }
 .items-cliente{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px,150px);
     grid-gap: 10px;
     margin: 10px;
 }
