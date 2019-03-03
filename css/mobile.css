@@ -47,7 +47,9 @@
 
 @media (max-width:450px){
     
-    
+    .registro{
+            padding: 10px;
+    }
     .title-presentacion h2{
         font-size: 25px;
     }
