@@ -86,7 +86,7 @@ a{
 }
 
 .presentacion {
-    height: 425px;
+    /* height: 425px; */
     display: inline-block;
     background: #fff;
     border-radius: 20px;
